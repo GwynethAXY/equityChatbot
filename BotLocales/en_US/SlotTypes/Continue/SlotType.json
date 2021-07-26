@@ -1,0 +1,1 @@
+{"name":"Continue","identifier":"1T9ZKNRKBU","description":null,"slotTypeValues":[{"synonyms":[{"value":"Yes"},{"value":"yup sure"},{"value":"Yup Sure"}],"sampleValue":{"value":"yes"}},{"synonyms":[{"value":"No "},{"value":"nope"}],"sampleValue":{"value":"no"}}],"parentSlotTypeSignature":null,"valueSelectionSetting":{"regexFilter":null,"resolutionStrategy":"TOP_RESOLUTION"}}
