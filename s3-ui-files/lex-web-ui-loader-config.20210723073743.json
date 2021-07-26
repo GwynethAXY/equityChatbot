@@ -1,0 +1,57 @@
+{
+  "region": "ap-southeast-1",
+  "cognito": {
+    "poolId": "ap-southeast-1:23d1ac9a-dc22-43c0-98a3-12e33447f060",
+    "appUserPoolClientId": "5vqtqa0tlo8nu6dii014ttbbkt",
+    "appUserPoolName": "ap-southeast-1_ggaZIQ0JE",
+    "appDomainName": "equitykbotkuikidentitypoolconfigkfabvcyjfdv292274269846.auth.ap-southeast-1.amazoncognito.com",
+    "aws_cognito_region": "ap-southeast-1",
+    "region": "ap-southeast-1"
+  },
+  "lex": {
+    "v2BotId": "RUXNUKXHMB",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en_US",
+    "botName": "RUXNUKXHMB",
+    "botAlias": "$LATEST",
+    "initialText": "Hello, this is an equities chatbot to help you obtain information easily.",
+    "initialSpeechInstruction": "To start off, simply search what you are looking for. E.g. What is the target price of Akamai",
+    "initialUtterance": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "ap-southeast-1",
+    "retryOnLexPostTextTimeout": "false",
+    "retryCountPostTextTimeout": "1"
+  },
+  "ui": {
+    "parentOrigin": "https://parent-website-chatbot.herokuapp.com",
+    "toolbarTitle": "Equity Chatbot",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "saveHistory": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "iframeOrigin": "https://dxtbw9khnqxsy.cloudfront.net",
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
+  }
+}

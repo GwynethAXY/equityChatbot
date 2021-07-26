@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parent Website</title>
+    </head>
+    <body>
+        <!-- <p>This is the parent page of the chatbot</p> -->
+        <img src="https://drive.google.com/thumbnail?id=1AVPw6aPt0b4PlD8LWUB8F-IFUJA53Y17&sz=w1400-h1400">
+    </body>
+
+    <script src="https://dxtbw9khnqxsy.cloudfront.net/lex-web-ui-loader.min.js"></script>
+    <script>
+      var loaderOpts = {
+        baseUrl: 'https://dxtbw9khnqxsy.cloudfront.net/',
+        shouldLoadMinDeps: true
+      };
+      var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+      loader.load()
+        .catch(function (error) { console.error(error); });
+    </script>
+
+</html>
